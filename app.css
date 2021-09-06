@@ -9,6 +9,7 @@
 .body {
   background-color: lightblue;
   color: darkgreen;
+  display: center;
 }
 
 .calculator {

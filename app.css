@@ -10,13 +10,31 @@
   background-color: lightblue;
   color: darkgreen;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 
 .calculator {
   background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.leftSide {
+  background-color: white;
   color: darkgreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rightSide {
+  background-color: darkgreen;
+  color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .greenButton {

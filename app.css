@@ -9,6 +9,8 @@
 .body {
   background-color: lightblue;
   color: darkgreen;
+  width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

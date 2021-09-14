@@ -1,64 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
- 
-  
-  <title>Frontend Mentor | Tip calculator app</title>
- <link rel="stylesheet" href="app.css">
- 
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+
+    <title>Frontend Mentor | Tip calculator app</title>
+    <link rel="stylesheet" href="app.css">
+
 </head>
-<body>
- <div class="body">
-   <h2>SPLI<br>TTER</h2>
-   
-   <div class="calculator">
-<div class="leftSide">
-    <p>Bill</p>
-     <input name="billAmount" placeholder="0" type="number">
 
- <p>Select Tip %</p>
-   <div class="tipsPercentages">                                                        
-  <button id="five" class="greenButton">5%</button>
-  <button id="ten" class="greenButton">10%</button>
-  <button id="fifteen" class="greenButton">15%</button>
-  <button id="twentyFive" class="greenButton">25%</button>
-  <button id="fifty" class="greenButton">50%</button>
-  <button id="custom" class="whiteButton">Custom</button>
+<body>
+    <div class="body">
+        <h2>SPLI<br>TTER</h2>
+
+        <div class="calculator">
+            <div class="leftSide">
+
+                <p>Bill</p>
+                <input name="billAmount" placeholder="0" type="number">
+
+
+                <p>Select Tip %</p>
+                <div class="tipsPercentages">
+                    <button id="five" class="greenButton">5%</button>
+                    <button id="ten" class="greenButton">10%</button>
+                    <button id="fifteen" class="greenButton">15%</button>
+                    <button id="twentyFive" class="greenButton">25%</button>
+                    <button id="fifty" class="greenButton">50%</button>
+                    <button id="custom" class="whiteButton">Custom</button>
+                </div>
+
+
+                <p>Number of People</p>
+                <input name="peopleAmount" placeholder="0" type="number">
+
+            </div>
+
+            <div class="rightSide">
+                <div class="values">
+                    <div class="tip">
+                        <div class="descriptionAmount">
+                            <p>Tip Amount</p>
+                            <p><span>/ person</span></p>
+                        </div>
+                        <div class="actualAmount">
+                            <p id="amountPerPerson">$0.00</p>
+                        </div>
+                    </div>
+
+                    <div class="total">
+                        <div class="descriptionTotal">
+                            <p>Total</p>
+                            <p><span>/ person</span></p>
+                        </div>
+                        <div class="actualTotal">
+                            <p id="totalPerPerson">$0.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button id="reset">RESET</button>
+            </div>
+        </div>
     </div>
 
-  <p>Number of People</p>
-<input name="peopleAmount" placeholder="0" type="number">
-     </div>
-  
-      <div class="rightSide">
-        <div class="descriptionAmount">
-  <p>Tip Amount<p>
-  <p><span>/ person</span></p>
-          </div> 
-        <div class="actualAmount">
-        <p id="amountPerPerson"></p>
-        </div> 
-
-        <div class="descriptionTotal">
-  <p>Total</p>
- <p><span>/ person</span></p>
-          </div> 
-        <div class="actualTotal">
- <p id="totalPerPerson"></p>
-          </div> 
-        
- <button id="reset">Reset</button> 
-      </div> 
-   </div> 
-  </div> 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Natasha McAvoy</a>.
-  </div>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Natasha McAvoy</a>.
+    </div>
+    <script src="app.js"></script>
 </body>
+
 </html>

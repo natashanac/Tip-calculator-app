@@ -1,68 +1,119 @@
 .attribution { 
-  font-size: 11px; text-align: center; 
+    font-size: 11px; text-align: center; 
 }
-
+  
 .attribution a {
-  color: hsl(228, 45%, 44%); 
+    color: hsl(228, 45%, 44%); 
 }
-
+  
 .body {
-  background-color: lightblue;
-  color: darkgreen;
-  text-align: center;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    background-color: hsl(185, 41%, 84%);
+    color: hsl(183, 100%, 15%);
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+
+
+p {
+    margin-bottom: 0em;
+}
+  
 .calculator {
-  background-color: white;
-  width: 60%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 1em;
-}
+    background-color: white;
+    width: 60%;
+    height: 17em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1em;
+    border-radius: 1em;
+    text-align: left;
 
+}
+  
 .leftSide {
-  background-color: white;
-  color: darkgreen;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 1.5em;
+    background-color: white;
+    color: hsl(183, 100%, 15%);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0em 1.5em 1em 1em;
 }
-
+  
 .rightSide {
-  background-color: darkgreen;
-  color: lightblue;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 1em;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5em;
+    border-radius: 0.5em;
 }
 
+span {
+    color: hsl(185, 41%, 84%);
+    font-size: small;
+   
+}
+
+.tipsPercentages {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 3.9em;
+}
+  
 .greenButton {
-  background-color: green;
-  color: white;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    border-radius: 0.3em;
+    border: none;
+    width: 5em;
+    height: 2em;
 }
-
+  
 .whiteButton {
-  background-color: white;
-  color: green;
+    background-color: white;
+    color: hsl(183, 100%, 15%);
+    border-radius: 0.3em;
+    border-color: hsl(172, 67%, 45%);
+    width: 5em;
+    height: 2em;
 }
-
+  
 .totals { 
-  background-color: green;
-  color: white;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    
 }
 
+.tip, .total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.actualAmount, .actualTotal {
+    color: hsl(172, 67%, 45%);
+    font-size: 1.5em;
+    font-weight: 700;
+
+}
+  
 #reset {
-   background-color: lightblue;
-  color: darkgreen;
+    background-color: hsl(185, 41%, 84%);
+    color: hsl(183, 100%, 15%);
+    border-radius: 0.3em;
+    border: none;
+    height: 2em;
 }
